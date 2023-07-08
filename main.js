@@ -15,7 +15,7 @@ function saveData(e) {
     // Create an object to store the user details
     var userDetails = {
         email: email,
-        name: username
+        namme: username
     };
 
     // Convert the object to a string
@@ -25,7 +25,7 @@ function saveData(e) {
     localStorage.setItem('user', userDetailsString);
 }
 
-// // Accessing the form element
+
 // var form = document.getElementById('my-form');
 
 // // Add event listener to the form
