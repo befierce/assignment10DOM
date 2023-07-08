@@ -1,7 +1,7 @@
 // Accessing the form element
 var form = document.getElementById('my-form');
 
-// Add event listener to the form
+// Add event listener to the form.
 form.addEventListener("submit", saveData);
 
 // Function to handle form submission
